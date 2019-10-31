@@ -1,0 +1,22 @@
+$primary-color: #452e76;
+$secondary-color: #48c3dc;
+$gray: #808080;
+$assetImgPath : "/assets/images";
+
+html {
+	height: 100vh;
+}
+
+body {
+	margin: 0 auto;
+	width: 100%;
+	height: auto;
+	background: url(./#{$assetImgPath}/bg.png) repeat fixed;
+	font-family: 'Open Sans', sans-serif;
+	background-color: $primary-color;
+}
+
+#root {
+	height: auto;
+  width: 100%;
+}
